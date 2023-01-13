@@ -26,6 +26,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        new_combo {
+            bindings = <&kp LC(SLASH)>;
+            key-positions = <32 42>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
