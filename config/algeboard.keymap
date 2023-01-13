@@ -43,7 +43,7 @@
             bindings = <
                &rgb_ug RGB_TOG     &rgb_ug RGB_EFF     &kp F1  &kp F2      &kp F3  &kp F4         &kp F5            &kp F6            &kp F7        &kp F8      &kp F9         &kp F10       &kp F11       &kp F12     &kp C_MUTE
                &rgb_ug RGB_SAI              &trans     &trans  &trans     &kp ESC  &trans  &kp LC(LS(E))    &kp LC(INSERT)         &kp PG_UP  &to_cur_file      &trans  &kp LS(INSERT)        &trans        &trans         &trans
-       &tog 3  &rgb_ug RGB_SAD  &kp LC(LEFT_SHIFT)  &kp LS(A)  &trans  &kp DELETE  &trans      &kp LC(P)          &kp LEFT          &kp DOWN        &kp UP   &kp RIGHT          &trans  &comment_esc        &trans  &kp C_BRI_INC
+       &tog 3  &rgb_ug RGB_SAD  &kp LC(LEFT_SHIFT)  &kp LS(A)  &trans  &kp DELETE  &trans      &kp LC(P)          &kp LEFT          &kp DOWN        &kp UP   &kp RIGHT    &comment_esc  &comment_esc        &trans  &kp C_BRI_INC
  &out OUT_USB  &rgb_ug RGB_BRI              &trans     &trans  &trans   &kp PG_DN  &trans         &trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)        &trans      &trans          &trans        &trans  &kp C_VOL_UP  &kp C_BRI_DEC
  &out OUT_BLE  &rgb_ug RGB_BRD              &trans     &trans  &trans      &trans  &trans  &kp LC(GRAVE)            &trans            &trans        &trans  &kp C_PREV    &kp C_VOL_DN    &kp C_NEXT
             >;
