@@ -16,9 +16,7 @@
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LC(P) &kp ENTER>,
-                <&macro_press>;
+            bindings = <&kp LC(P) &kp ENTER &kp ENTER>;
         };
         comment_esc: comment_esc {
             compatible = "zmk,behavior-macro";
