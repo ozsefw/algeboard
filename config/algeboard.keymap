@@ -14,13 +14,13 @@
     macros {
         cur_file: cur_file {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "file";
             #binding-cells = <0>;
             bindings = <&kp LC(P) &kp ENTER>;
         };
         commitment_esc: commitment_esc {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "commit";
             #binding-cells = <0>;
             bindings = <&kp LC(SLASH) &kp ESC>;
         };
