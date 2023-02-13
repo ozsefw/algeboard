@@ -54,7 +54,7 @@
               &rgb_ug RGB_SAI              &trans     &trans  &trans     &kp ESC  &trans      &kp LC(P)    &kp LC(INSERT)         &kp PG_UP         &cur_file             &trans   &kp LS(INSERT)      &trans        &trans         &trans
       &tog 3  &rgb_ug RGB_SAD  &kp LC(LEFT_SHIFT)  &kp LS(A)  &trans  &kp DELETE  &trans  &kp LC(LS(E))          &kp LEFT          &kp DOWN            &kp UP          &kp RIGHT  &commitment_esc      &trans        &trans  &kp C_BRI_INC
 &out OUT_USB  &rgb_ug RGB_BRI              &trans     &trans  &trans   &kp PG_DN  &trans         &trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(LA(LEFT))  &kp LC(LA(RIGHT))  &commitment_esc      &trans  &kp C_VOL_UP  &kp C_BRI_DEC
-&out OUT_BLE  &rgb_ug RGB_BRD              &trans     &trans  &trans      &trans  &trans  &kp LC(GRAVE)            &trans            &trans        &kp K_MENU         &kp C_PREV     &kp C_VOL_DN  &kp C_NEXT
+&out OUT_BLE  &rgb_ug RGB_BRD              &trans     &trans  &trans      &trans  &trans  &kp LC(GRAVE)            &trans            &trans        &kp C_MENU         &kp C_PREV     &kp C_VOL_DN  &kp C_NEXT
             >;
         };
 
